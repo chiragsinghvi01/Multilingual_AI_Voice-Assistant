@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilingual_ai_voice_assistant"
+version = "0.1.0"
+authors = [
+    {name = "Chirag Singhvi", email = "csinghvi15@gmail.com"}
+]
+description = "A multilingual AI voice assistant"
+dependencies = [
+    "python-dotenv",
+    "sounddevice",
+    "soundfile",
+    "openai-whisper",
+    "google-genai",
+    "pyttsx3",
+    "streamlit",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

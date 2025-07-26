@@ -1,0 +1,7 @@
+python-dotenv
+sounddevice
+soundfile
+openai-whisper
+google-genai
+pyttsx3
+streamlit
