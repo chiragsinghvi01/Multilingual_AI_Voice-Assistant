@@ -15,7 +15,7 @@ A sophisticated voice-powered AI assistant that can understand speech in multipl
 ## 🛠️ Tech Stack
 
 ### Core Technologies
-- **Python 3.13** - Primary programming language
+- **Python 3.13.5** - Primary programming language
 - **Streamlit** - Web interface framework
 - **OpenAI Whisper** - Speech-to-text conversion
 - **Google Gemini AI** - Large Language Model for responses
